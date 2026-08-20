@@ -1,0 +1,29 @@
+# 이 저장소에는 발행한 글만 올라간다.
+# 원고, 이미지, 소재 카탈로그, 작업 문서는 private 저장소에서 관리한다.
+# published/ 아래만 추적한다.
+
+# 발행 전 작업물 (private 저장소 소관)
+drafts/
+images/
+specs/
+docs/
+CLAUDE.md
+scripts/
+.env.example
+
+# 자격증명
+.env
+.env.local
+.env.*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 임시 파일
+*.tmp
+*.temp
